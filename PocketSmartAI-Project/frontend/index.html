@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PocketSmart AI</title>
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PocketSmart AI Budget Planner</h1>
+
+  <!-- Home Planner -->
+  <section>
+    <h2>Home Planner</h2>
+    <form id="homeForm">
+      <label>Total Budget (INR):</label>
+      <input type="number" id="homeBudget" required/>
+      <button type="submit">Generate</button>
+    </form>
+    <div id="homeResults"></div>
+  </section>
+
+  <!-- Party Planner -->
+  <section>
+    <h2>Party Planner</h2>
+    <form id="partyForm">
+      <label>Total Budget (INR):</label>
+      <input type="number" id="partyBudget" required>
+      <label>Guests:</label>
+      <input type="number" id="partyGuests" required>
+      <button type="submit">Generate</button>
+    </form>
+    <pre id="partyResults"></pre>
+  </section>
+
+  <!-- Jewelry Planner -->
+  <section>
+    <h2>Jewelry Planner</h2>
+    <form id="jewelryForm">
+      <label>Total Budget (INR):</label>
+      <input type="number" id="jewelryBudget" required>
+      <button type="submit">Generate</button>
+    </form>
+    <pre id="jewelryResults"></pre>
+  </section>
+
+  <!-- Link JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
